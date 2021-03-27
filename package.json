@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "phaser": "^3.54.0"
+  },
+  "scripts": {
+    "build": "rimraf docs && parcel build src/index.html --dist-dir docs --public-url /gamepad-sandbox/",
+    "dev": "rimraf www && parcel src/index.html"
+  }
+}
